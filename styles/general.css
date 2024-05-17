@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+:root {
+  --white: #fff;
+  --dark: #212529;
+  --dark-mode: #0c0c0d;
+  --gray: #5b5b5b;
+  --yellow: #ffc200;
+  --violet: #474559;
+  --dark-title: #353535;
+  --links-color: rgba(0, 0, 0, .5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+body.dark-mode {
+  background-color: var(--dark-mode);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+button {
+  outline: none;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
