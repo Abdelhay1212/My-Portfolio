@@ -7,7 +7,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px 0px;
+  padding: 25px 0px;
   position: relative;
 }
 
@@ -32,6 +32,7 @@ nav {
 
 .nav-right svg {
   width: 30px;
+  transition: all 0.4s ease;
 }
 
 svg path {
@@ -96,6 +97,8 @@ svg path {
   display: flex;
   align-items: center;
   gap: 8px;
+
+  padding-right: 0;
 }
 
 .theme-toggle svg {
@@ -183,10 +186,6 @@ svg.hide {
     display: unset;
   }
 
-  .nav-left {
-    gap: 30px;
-  }
-
   .nav-center {
     display: none;
   }
@@ -198,24 +197,30 @@ svg.hide {
   }
 }
 
-
-nav.dark-mode .nav-menu-links {
-  background-color: transparent;
+@media screen and (max-width: 450px) {
+  .theme-toggle span {
+    display: none;
+  }
 }
 
-nav.dark-mode a {
+
+body.dark-mode .nav-menu-links {
+  background-color: var(--dark);
+}
+
+body.dark-mode a {
   color: var(--white);
 }
 
-nav.dark-mode span {
+body.dark-mode .burger-menu span {
   background-color: var(--white);
 }
 
-nav.dark-mode svg path {
+body.dark-mode svg path {
   fill: var(--white);
   stroke: var(--white);
 }
 
-nav.dark-mode button {
+body.dark-mode button {
   color: var(--white);
 }

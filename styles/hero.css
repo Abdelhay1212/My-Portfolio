@@ -1,0 +1,137 @@
+/* Hero section styles */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.text {
+  flex-basis: 50%;
+  max-width: 600px;
+}
+
+.text h5 {
+  width: fit-content;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  padding: 8px 16px;
+  color: var(--gray);
+}
+
+.text h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: var(--dark);
+}
+
+.text h1 span {
+  color: var(--yellow);
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 35px;
+  color: var(--gray);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.buttons button:first-of-type {
+  background-color: #eee;
+  color: var(--gray);
+}
+
+.buttons button:first-of-type:hover {
+  color: var(--yellow);
+}
+
+.buttons button:first-of-type svg {
+  width: 10px;
+}
+
+.buttons button:first-of-type svg path {
+  fill: var(--gray);
+  transition: fill 0.4s ease-in-out;
+}
+
+.buttons button:first-of-type:hover>svg path {
+  fill: var(--yellow);
+}
+
+.buttons button:nth-of-type(2) {
+  color: var(--white);
+  background-color: var(--violet);
+  letter-spacing: 1px;
+}
+
+.buttons button:nth-of-type(2):hover {
+  background-color: var(--yellow);
+}
+
+.buttons button:nth-of-type(2) svg {
+  width: 15px;
+}
+
+.buttons button:nth-of-type(2) svg path {
+  fill: var(--white);
+}
+
+.image {
+  flex-basis: 40%;
+  max-width: 400px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 50px 15px;
+  }
+
+  .text button {
+    font-size: 10px;
+  }
+
+  .text,
+  .image {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .image {
+    margin-top: 40px;
+  }
+}
+
+/* handle the dark mode */
+body.dark-mode .hero h5 {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+body.dark-mode .hero h1 {
+  color: var(--white);
+}
+
+body.dark-mode .hero p {
+  color: #eee;
+}
