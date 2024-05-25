@@ -19,6 +19,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -44,6 +45,41 @@ button {
   border: none;
 }
 
+button.scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px 25px;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+  background-color: var(--violet);
+}
+
+button.scrollToTop svg {
+  width: 20px;
+}
+
+button.scrollToTop svg path {
+  fill: var(--white);
+}
+
+button.show {
+  display: block;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+body.dark-mode button.scrollToTop {
+  background-color: var(--white);
+}
+
+body.dark-mode button.scrollToTop svg path {
+  fill: var(--violet);
+}
+
 /* Responsive Media Queries */
 @media (max-width: 767px) {
   .container {
@@ -66,5 +102,32 @@ button {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  position: relative;
+}
+
+footer p {
+  padding: 30px 10px;
+}
+
+body.dark-mode footer {
+  color: var(--white);
+  border-top: 0.5px solid #5d5d5d;
+}
+
+@media screen and (max-width: 700px) {
+  footer p {
+    font-size: 13px;
   }
 }

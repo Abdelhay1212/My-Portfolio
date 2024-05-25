@@ -1,0 +1,120 @@
+{
+    "backend": [
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+            "alt": "The logo icon for python",
+            "title": "Python"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+            "alt": "The logo icon for django",
+            "title": "Django"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+            "alt": "The logo icon for flask",
+            "title": "Flask"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+            "alt": "The logo icon for mysql",
+            "title": "MySQL"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original-wordmark.svg",
+            "alt": "The logo icon for sqlalchemy",
+            "title": "SQLAlchemy"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+            "alt": "The logo icon for mongodb",
+            "title": "MongoDB"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original-wordmark.svg",
+            "alt": "The logo icon for mongoose",
+            "title": "Mongoose"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+            "alt": "The logo icon for redis",
+            "title": "Redis"
+        }
+    ],
+    "frontend": [
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+            "alt": "The logo icon for HTML 5",
+            "title": "HTML 5"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+            "alt": "The logo icon for CSS3",
+            "title": "CSS 3"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "alt": "The logo icon for JavaScript",
+            "title": "JavaScript"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+            "alt": "The logo icon for react",
+            "title": "React"
+        },
+        {
+            "source": "/images/tailwindcss_logo_icon_170649.svg",
+            "alt": "The logo icon for TailwindCSS",
+            "title": "Tailwind CSS"
+        }
+    ],
+    "devops": [
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+            "alt": "The logo icon for docker",
+            "title": "Docker"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+            "alt": "The logo icon for nginx",
+            "title": "Nginx"
+        },
+        {
+            "source": "https://www.vectorlogo.zone/logos/gunicorn/gunicorn-ar21.svg",
+            "alt": "The logo icon for gunicorn",
+            "title": "Gunicorn"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
+            "alt": "The logo icon for GitHub",
+            "title": "GitHub"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+            "alt": "The logo icon for git",
+            "title": "Git"
+        }
+    ],
+    "others": [
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "alt": "The logo icon for linux",
+            "title": "Linux"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
+            "alt": "The logo icon for bash",
+            "title": "Bash"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+            "alt": "The logo icon for c",
+            "title": "C"
+        },
+        {
+            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+            "alt": "The logo icon for NPM",
+            "title": "NPM"
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+.contact {
+  padding: 50px 0;
+}
+
+.contact .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .heading {
+  text-align: center;
+}
+
+.contact .heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.contact .heading h2 span {
+  color: var(--yellow);
+}
+
+.contact .heading p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--gray);
+  max-width: 700px;
+  margin: 20px 0 60px;
+  padding: 0 15px;
+}
+
+.contact .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.contact .row .col {
+  width: 50%;
+}
+
+.contact .row .form {
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .contact .row {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .contact .row .col {
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact .row .form {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.contact .form-control {
+  padding: 25px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.contact button.btn {
+  background: var(--yellow);
+  color: var(--white);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.contact .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact .title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+.contact .content div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact .content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.contact .content a:hover {
+  color: var(--yellow);
+}
+
+.contact .content a svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.contact .content a svg path {
+  fill: var(--gray);
+  transition: fill 0.3s ease;
+}
+
+.contact .content a:hover svg path {
+  fill: var(--yellow);
+}
+
+/* dark mode */
+
+body.dark-mode .contact .heading h2 {
+  color: var(--white);
+}
+
+body.dark-mode .contact .heading p {
+  color: #ccc;
+}
+
+body.dark-mode .contact .title h3 {
+  color: var(--white);
+}
+
+body.dark-mode .contact .title p {
+  color: #ccc;
+}
+
+body.dark-mode .contact .content a {
+  color: var(--white);
+}
+
+body.dark-mode .contact .content a:hover {
+  color: var(--yellow);
+}
+
+body.dark-mode .contact .content a svg path {
+  fill: var(--white);
+}
+
+body.dark-mode .contact .content a:hover svg path {
+  fill: var(--yellow);
+}

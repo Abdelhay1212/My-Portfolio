@@ -7,7 +7,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  padding: 25px 0px;
+  padding: 20px 0px;
   position: relative;
 }
 
@@ -105,7 +105,11 @@ svg path {
   width: 30px;
 }
 
-svg.hide {
+body.dark-mode .theme-toggle svg.moon {
+  display: none;
+}
+
+body.light-mode .theme-toggle svg.sun {
   display: none;
 }
 
@@ -158,6 +162,8 @@ svg.hide {
   gap: 20px;
   overflow: hidden;
   transition: height 0.3s ease-in-out;
+
+  z-index: 999;
 }
 
 .nav-menu-links.active {

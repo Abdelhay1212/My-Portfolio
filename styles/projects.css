@@ -1,0 +1,199 @@
+.projects {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.projects h2 {
+  color: var(--dark-title);
+  text-align: center;
+  margin: 30px auto 60px;
+}
+
+.projects button {
+  margin: 40px auto 0;
+  cursor: pointer;
+  background-color: #eee;
+  color: var(--gray);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  transition: color 0.4 ease-in-out;
+}
+
+.projects button svg {
+  width: 10px;
+  margin-bottom: 2px;
+}
+
+.projects button:hover {
+  color: var(--yellow);
+}
+
+.projects button svg path {
+  fill: var(--gray);
+  transition: fill 0.4ms ease-in-out;
+}
+
+.projects button:hover>svg path {
+  fill: var(--yellow);
+}
+
+.project-cards {
+  width: 100%;
+}
+
+.project-card {
+  width: 70%;
+  height: 450px;
+  position: relative;
+  margin-bottom: 50px;
+
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.project-card .text {
+  width: 100%;
+  padding: 30px 20px;
+  text-align: left;
+  background: linear-gradient(to right, white, #d6d4e4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1240px) {
+  .project-card {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto 250px;
+  }
+
+  .project-card .text {
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80%;
+  }
+
+  .project-card img {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-card {
+    position: unset;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  }
+
+  .project-card .text {
+    position: unset;
+    transform: unset;
+    width: 100%;
+  }
+
+  .project-card img {
+    position: unset;
+    transform: unset;
+
+  }
+}
+
+.project-card h3 {
+  color: var(--violet);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: var(--gray);
+  margin-bottom: 15px;
+}
+
+.project-card h4 {
+  color: var(--gray);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.project-card .links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-card .links a {
+  color: var(--dark-title);
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.project-card .links a:hover {
+  color: var(--yellow);
+}
+
+.project-card .links a svg {
+  width: 15px;
+  transition: path 0.4ms ease-in-out;
+}
+
+.project-card .links a:hover svg path {
+  fill: var(--yellow);
+}
+
+/* Dark mode */
+
+body.dark-mode .projects .project-card .text {
+  background: linear-gradient(to right, #474559, #6b697f);
+  box-shadow: 0 10px 20px rgba(50, 50, 50, 0.5), 0 3px 6px rgba(70, 70, 70, 0.7);
+}
+
+body.dark-mode .projects h2,
+body.dark-mode .projects h3,
+body.dark-mode .projects h4 {
+  color: var(--white);
+}
+
+body.dark-mode .projects p {
+  color: #ccc;
+}
+
+body.dark-mode .projects a {
+  color: var(--white);
+}
+
+body.dark-mode .projects button {
+  color: var(--gray);
+}
+
+body.dark-mode .projects button:hover {
+  color: var(--yellow);
+}
