@@ -93,11 +93,16 @@
 .image {
   flex-basis: 40%;
   max-width: 400px;
+  box-shadow: 2px -2px 124px 38px rgba(74, 57, 111, 0.75);
+  -webkit-box-shadow: 2px -2px 124px 38px rgba(74, 57, 111, 0.75);
+  -moz-box-shadow: 2px -2px 124px 38px rgba(74, 57, 111, 0.75);
+  border-radius: 50%;
 }
 
 .image img {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 /* Responsive styles */

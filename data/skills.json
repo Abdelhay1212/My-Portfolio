@@ -6,11 +6,6 @@
             "title": "Python"
         },
         {
-            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
-            "alt": "The logo icon for django",
-            "title": "Django"
-        },
-        {
             "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
             "alt": "The logo icon for flask",
             "title": "Flask"
@@ -29,11 +24,6 @@
             "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
             "alt": "The logo icon for mongodb",
             "title": "MongoDB"
-        },
-        {
-            "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original-wordmark.svg",
-            "alt": "The logo icon for mongoose",
-            "title": "Mongoose"
         },
         {
             "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
