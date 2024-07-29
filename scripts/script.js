@@ -51,7 +51,7 @@ githubBtn.addEventListener('click', () => {
   window.open('https://github.com/Abdelhay1212', '_blank');
 });
 resumeBtn.addEventListener('click', () => {
-  window.open('https://docs.google.com/document/d/1t8iwQb5WNi4702O1SEkeAcHZehSYrJ2CCDP8aEIW4zs/edit?usp=sharing', '_blank');
+  window.open('https://docs.google.com/document/d/1g8P6hz4RYa7aWrzGO59ireFxmainsS42PgMeJU8EiL0/edit?usp=sharing', '_blank');
 });
 
 
